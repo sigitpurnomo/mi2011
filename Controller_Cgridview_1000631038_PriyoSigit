@@ -1,0 +1,14 @@
+<?php
+class SiteController extends Controller
+{
+	public function actionIndex()
+	{
+		$this->render('cgridview');
+	}
+}
+
+
+
+	// sebelumnya file "cgridview" saya masukkan kedalam ..\protected\views\site
+	// sehingga untuk memanggilnya, saya gunakan script diatas.
+	// Selanjutnya komponen html tersebut dapat terlihat pada tampilan home/awal
